@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family:Roboto, "san serif";
+    background-color: black;
+    padding: 0 32px;
+    margin: 0;
+    color: blanchedalmond;
+}
+.header-container {
+    background-color: #1f2937;
+    padding:48px;
+}
+.header-top {
+    display:flex;
+    justify-content: space-between;
+}
+.header-bottom {
+    display: flex;
+}
+    
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.sidekick,
+.link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.logo {
+    font-size: 24px;
+    columns: #f9faf8;
+}
+
+
+
+
+
+
+
+
+button,
+.action {
+    background-color: #3882f6;
+    color: white;
+}
