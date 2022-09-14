@@ -2,47 +2,66 @@
 
 body {
     font-family:Roboto, "san serif";
-    background-color: black;
-    padding: 0 32px;
-    margin: 0;
-    color: blanchedalmond;
+    margin: auto;
+    
 }
 .header-container {
     background-color: #1f2937;
-    padding:48px;
+    padding: 0px 150px;
+    color: white;
 }
 .header-top {
     display:flex;
     justify-content: space-between;
-}
-.header-bottom {
-    display: flex;
-}
     
-.hero {
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-}
-.sidekick,
-.link {
-    font-size: 18px;
-    color: #e5e7eb;
 }
 .logo {
     font-size: 24px;
     columns: #f9faf8;
+    margin-top: 12px;
 }
 
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.header-links {
+    display: flex;
+    margin-top: 12px;
+    gap: 24px;
+}
 
-
-
-
-
-
-
-button,
-.action {
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    align-items: center;
+    height:350px
+}
+.hbl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.hero {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+.sidekick {
+    font-size: 18px;
+    margin-bottom: 12px;
+    max-width: ;
+}
+.b-top {
     background-color: #3882f6;
     color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-style: none;
+    width: 100px;
+    height: auto;
+    font-weight: 700;
 }
