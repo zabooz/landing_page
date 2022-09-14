@@ -3,12 +3,15 @@
 body {
     font-family:Roboto, "san serif";
     margin: auto;
-    
+    min-width: 1400px;
+    max-width: 1250px;
+    background-color: black;
 }
 .header-container {
     background-color: #1f2937;
     padding: 0px 150px;
     color: white;
+
 }
 .header-top {
     display:flex;
@@ -35,14 +38,16 @@ a {
 .header-bottom {
     display: flex;
     justify-content: space-between;
-    gap: 36px;
     align-items: center;
-    height:350px
+    height:400px
 }
 .hbl {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
+    width: 550px;
+    height: 267px;
     
 }
 .hero {
@@ -52,9 +57,15 @@ a {
 }
 .sidekick {
     font-size: 18px;
-    margin-bottom: 12px;
-    max-width: ;
+    margin-top: 16px;
+
 }
+.inna_cover {
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+}
+
 .b-top {
     background-color: #3882f6;
     color: white;
@@ -64,4 +75,15 @@ a {
     width: 100px;
     height: auto;
     font-weight: 700;
+    font-size: medium;
+    margin-top: 16px;
+}
+.container-one {
+    background-color: antiquewhite;
+}
+.random {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
