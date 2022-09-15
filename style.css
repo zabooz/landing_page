@@ -3,8 +3,8 @@
 body {
     font-family:Roboto, "san serif";
     margin: auto;
-    min-width: 1400px;
-    max-width: 1250px;
+    min-width: 1250px;
+    max-width: 1450px; 
     background-color: black;
 }
 .header-container {
@@ -80,10 +80,24 @@ a {
 }
 .container-one {
     background-color: antiquewhite;
+    height: 450px;
 }
-.random {
-    text-align: center;
+.info {
+    display: flex;
+    justify-content: center;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 700;
     color: #1f2937;
+}
+.cards {
+    display:flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: nowrap;
+}
+.box {
+    width: 275px;
+}
+.boxo {
+    width: 300px;
 }
