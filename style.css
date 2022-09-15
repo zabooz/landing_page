@@ -4,8 +4,16 @@ body {
     font-family:Roboto, "san serif";
     margin: auto;
     min-width: 1250px;
-    max-width: 1450px; 
+    max-width: 1500px; 
     background-color: black;
+}
+.meme {
+    width: 200px;
+    height: 150px;
+    border: 6px solid #3882f6;
+    border-radius: 12px;
+
+
 }
 .header-container {
     background-color: #1f2937;
@@ -79,8 +87,12 @@ a {
     margin-top: 16px;
 }
 .container-one {
-    background-color: antiquewhite;
+    background-color: white;
     height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .info {
     display: flex;
@@ -88,16 +100,41 @@ a {
     font-size: 36px;
     font-weight: 700;
     color: #1f2937;
+    margin-top: 30px;
+
 }
 .cards {
     display:flex;
     justify-content: center;
-    gap: 24px;
-    flex-wrap: nowrap;
+    gap: 64px;
+    margin-bottom: 50px;
 }
 .box {
-    width: 275px;
+    width: 200px;
+    height: auto;
 }
-.boxo {
-    width: 300px;
+.text {
+    margin-top: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 450px;
+    
+}
+.quote {
+    width: 750px;
+    font: italic lighter 36px/1 Roboto;
+    color: #1f293779;
+}
+.author {
+    align-self: flex-end;
+    width: 500px;
+    margin-top: 30px;
+    font: 700 24px/1 Roboto;
 }
